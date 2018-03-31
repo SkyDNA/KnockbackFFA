@@ -1,0 +1,11 @@
+name: KnockbackFFA
+main: KnockbackFFA\KnockbackFFA
+version: 1.8.0
+api: 3.0.0-ALPHA11
+author: ByBezge
+website: https://github.com/ByBezge
+commands:
+  knockbackffa:
+    description: Joinen sie KnockbackFFA Runde
+  kbf:
+    description: Joinen sie die KnockbackFFA Runde
