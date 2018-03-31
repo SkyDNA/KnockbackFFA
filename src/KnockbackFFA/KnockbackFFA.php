@@ -100,7 +100,7 @@ class KnockbackFFA extends PluginBase implements Listener {
             ),
         );
 
-        $datei = file_get_contents("https://raw.githubusercontent.com/ByBezge/KnockbackFFA-McpeBooster/master/plugin.yml", false, stream_context_create($arrContextOptions));
+        $datei = file_get_contents("https://raw.githubusercontent.com/McpeBooster/KnockbackFFA-McpeBooster/master/plugin.yml", false, stream_context_create($arrContextOptions));
         if (!$datei)
             return false;
 
@@ -131,8 +131,8 @@ class KnockbackFFA extends PluginBase implements Listener {
                 $this->getLogger()->info("§aNew Update available!");
                 $this->getLogger()->info("§7Local Version: §6" . $version);
                 $this->getLogger()->info("§7Newest Version: §6" . $newversion);
-                $this->getLogger()->info("§aUpdate your Plugin by downloading the new source at §7https://github.com/Mcpebooster/KnockbackFFA-Mcpebooster/");
-                $this->getLogger()->info("§aor get the newest .phar at §7http://Mcpebooster/plugins/");
+                $this->getLogger()->info("§aUpdate your Plugin by downloading the new source at §7https://github.com/McpeBooster/KnockbackFFA-McpeBooster/");
+                $this->getLogger()->info("§aor get the newest .phar at §7http://McpeBooster.t/plugins/");
                 return true;
             }
         }
