@@ -131,8 +131,8 @@ class KnockbackFFA extends PluginBase implements Listener {
                 $this->getLogger()->info("§aNew Update available!");
                 $this->getLogger()->info("§7Local Version: §6" . $version);
                 $this->getLogger()->info("§7Newest Version: §6" . $newversion);
-                $this->getLogger()->info("§aUpdate your Plugin by downloading the new source at §7https://github.com/ByBezge/KnockbackFFA-ByBezge/");
-                $this->getLogger()->info("§aor get the newest .phar at §7http://ByBezge.tk/plugins/");
+                $this->getLogger()->info("§aUpdate your Plugin by downloading the new source at §7https://github.com/Mcpebooster/KnockbackFFA-Mcpebooster/");
+                $this->getLogger()->info("§aor get the newest .phar at §7http://Mcpebooster/plugins/");
                 return true;
             }
         }
